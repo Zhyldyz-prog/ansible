@@ -26,7 +26,7 @@
     - name: Создать файл info.txt
       ansible.builtin.copy:
         dest: /opt/lab4/info.txt
-        content: "Выполнил: Савицкий\n"
+        content: "Выполнила: Алмасбекова Жылдыз\n"
         owner: devuser
         mode: "0644"
 
